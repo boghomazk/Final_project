@@ -10,3 +10,4 @@ The first step was to examine the data, highlight the significant features and g
 The next step was to work with the features. The data, gaps, distributions, relationships between attributes were analyzed. Nine new features were generated from the available data, and work such as filling in the gaps, removing outliers from the original data was performed. After that, the modeling was conducted. Based on the results of the metrics of the obtained models, a boosting model (xgboost) was chosen and hyperparameters were selected. The resulting model was automatically saved to a pickle file (Pickled_model.pkl). The service based on fastapi that allows using the model as an online service was created. 
 
 # Workflow diagram
+![](./Diagram.png)
