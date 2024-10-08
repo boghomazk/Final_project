@@ -1,0 +1,34 @@
+ga_sessions.csv data description:
+session_id - visit ID;
+client_id - customer ID;
+visit_date - date of visit;
+visit_time - visit time;
+visit_number - customer's visit number;
+utm_source - channel of attraction;
+utm_medium - type of attraction;
+utm_campaign - advertising campaign;
+utm_keyword - keyword;
+device_category - device type;
+device_os - device OS;
+device_brand - device brand;
+device_model - device model;
+device_screen_resolution - screen resolution;
+device_brand - device brand;
+device_model - device model;
+device_screen_resolution - screen size;
+device_browser - browser;
+geo_country - country;
+geo_city - city.
+
+ga_hits.csv data description:
+session_id - visit ID;
+hit_date - event date;
+hit_time - event time;
+hit_number - order number of the event within the session;
+hit_type - event type;
+hit_referer - event source;
+hit_page_path - event page;
+event_category - type of action;
+event_action - action;
+event_label - action tag;
+event_value - outcome result of the action.
