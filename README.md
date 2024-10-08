@@ -6,8 +6,8 @@ This repository contains the required requirements (requirements.txt), data desc
 # Reproducing a project
 + Install the required python packages specified in requirements.txt.
 + Download files from the repository (structure is important)
-  ![](./scheme.png)
 + Run uvicorn app.main:app –reload in terminal
+   ![](./scheme.png)
 + Open postman/http://127.0.0.1:8000/docs 
 + Make a POST request (/predict)
 
