@@ -1,6 +1,7 @@
 # Description
-Within the framework of the project, based on real data provided by the SberAutoSubscription service, an online service was developed. The service is based on a machine learning model. This service allows determining in real time whether a user will become a customer or not.
-To accomplish the objective, analysis of data, data cleaning, feature engineering and selection of the best performing model for the task was performed. Also, there was developed a service that allows to use the model online.
+Within the framework of the project, an online service was developed using real data provided by the SberAutoSubscription. It is based on the machine learning model. The service allows to determine whether a user becomes a customer or not in real time.
+
+This repository contains the required requirements (requirements.txt), data description file (data description.txt), "app" folder with .py files for running the project and model in pickle format, additional overview pictures (Diagram.png, scheme.png).
 
 # Reproducing a project
 + Install the required python packages specified in requirements.txt.
