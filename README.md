@@ -5,7 +5,7 @@ To accomplish the objective, analysis of data, data cleaning, feature engineerin
 # Reproducing a project
 + Install the required python packages specified in requirements.txt.
 + Download files from the repository (structure is important)
-  ![](./Scheme.png)
+  ![](./scheme.png)
 + Run uvicorn app.main:app –reload in terminal
 + Open postman/http://127.0.0.1:8000/docs 
 + Make a POST request (/predict)
