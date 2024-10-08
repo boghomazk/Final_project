@@ -2,6 +2,15 @@
 Within the framework of the project, based on real data provided by the SberAutoSubscription service, an online service was developed. The service is based on a machine learning model. This service allows determining in real time whether a user will become a customer or not.
 To accomplish the objective, analysis of data, data cleaning, feature engineering and selection of the best performing model for the task was performed. Also, there was developed a service that allows to use the model online.
 
+# Reproducing a project
++ Install the required python packages specified in requirements.txt.
++ Download files from the repository (structure is important)
+  ![](./Scheme.png)
++ Run uvicorn app.main:app –reload in terminal
++ Open postman/http://127.0.0.1:8000/docs 
++ Make a POST request (/predict)
+
+
 # Methodology
 The data represents information about customers who visited the website of the company that provides car leasing. The file ga_sessions.csv contains mostly information about clients, in ga_hits-001.csv data about marketing programs. The main goal of the study was to predict whether a site visitor would perform a targeted action expressing his willingness to become a customer and to develop a service that would predict if the user is ready to make specific actions. Examples of such actions are leaving a request or ordering a call. The obtained prediction about the user would inform the company how their marketing strategies are working and develop a personalized approach to clients. 
 
