@@ -13,6 +13,8 @@ This repository contains the required requirements (requirements.txt), data desc
 
 
 # Methodology
+The service is based on a model that examines the impact of factors such as place of residence, information about the device used to visit the site and provided advertising products on the willingness of the user to make a specific action, such as order a call or submit a request.
+
 The data represents information about customers who visited the website of the company that provides car leasing. The file ga_sessions.csv contains mostly information about clients, in ga_hits-001.csv data about marketing programs. The main goal of the study was to predict whether a site visitor would perform a targeted action expressing his willingness to become a customer and to develop a service that would predict if the user is ready to make specific actions. Examples of such actions are leaving a request or ordering a call. The obtained prediction about the user would inform the company how their marketing strategies are working and develop a personalized approach to clients. 
 
 The first step was to examine the data, highlight the significant features and generate a dataset to work with. The final dataset contains data on 1732266 unique sessions and 1320 thousand website visitors. In total, the data was collected on 18 attributes. From more than 1.5 million visits of the website, users made a targeted action in 2.9% of cases. 
