@@ -8,7 +8,7 @@ This repository contains the required requirements (requirements.txt), data desc
 + Download the data (unzip it) and file with targets [from disk](https://drive.google.com/file/d/1QjJyJtsO_wCSW5ufMAftCYmoWpFQZX7R/view?usp=drive_link)
 + Download files from the repository (structure is important)
 + Run uvicorn app.main:app –reload in terminal
-   ![](./scheme.png)
+   ![](./Scheme.png)
 + Open postman/http://127.0.0.1:8000/docs 
 + Make a POST request (/predict)
 
