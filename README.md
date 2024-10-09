@@ -5,6 +5,7 @@ This repository contains the required requirements (requirements.txt), data desc
 
 # Reproducing a project
 + Install the required python packages specified in requirements.txt.
++ Download the data (unzip it) and file with targets [from disk](https://drive.google.com/file/d/1QjJyJtsO_wCSW5ufMAftCYmoWpFQZX7R/view?usp=drive_link)
 + Download files from the repository (structure is important)
 + Run uvicorn app.main:app –reload in terminal
    ![](./scheme.png)
